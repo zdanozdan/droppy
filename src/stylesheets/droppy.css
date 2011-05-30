@@ -15,15 +15,16 @@
 .droppy ul ul { left: 131px; }
 
 /* Everything else is theming */
- 
-.droppy { background-color: #30A8C3; height: 24px; }
-.droppy *:hover { background-color: none; }
-.droppy a { border-right: 1px solid white; color: white; font-size: 12px; padding: 6px; line-height: 1; }
-  .droppy li.hover a { background-color: #5E5A5A; }
-  .droppy ul { top: 25px; }
-    .droppy ul li a { background-color: #5E5A5A; }
-      .droppy ul a.has-subnav { background-color: #2E2A2A }
-			.droppy ul a.hover { background-color: #30A8C3; }
-   .droppy ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
-/* .droppy ul a { border-bottom: none; } - I also needed this for IE6/7 */
 
+.droppy { background-color: #eee; height: 30px;}
+.droppy *:hover { background-color: none; text-decoration: none}
+.droppy a { border-right: 1px solid white; color: black; font-size: 13px; padding: 6px; line-height: 1; }
+  .droppy li a.hover { background-color: #C3D9FF; }
+  .droppy ul { top: 25px; border: 1px solid #C0C0C0}
+  .droppy ul li a { background-color: #eee; color: black;}
+  .droppy .separator { border-bottom: 1px solid #C0C0C0; display: block; font-size:1px;}
+
+  .droppy ul a.has-subnav { background-color: #blue }
+  .droppy ul a.hover { background-color: #C3D9FF; }
+  .droppy ul a { border-right: none; opacity: 1; filter: alpha(opacity=90); }
+/* .droppy ul a { border-bottom: none; } - I also needed this for IE6/7 */
